@@ -1,0 +1,20 @@
+{
+    "name": "daok/logger-helper",
+    "description": "Gerenciamento de Logs.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "LoggerHelper\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "David Carvalho",
+            "email": "davidcarvalho.developer@gmail.com"
+        }
+    ],
+    "require": {
+      "ext-pdo": "*"
+    }
+}
